@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b974c39bc6c6eed4fa32d748f2e09c7d, type: 3}
+  m_Name: skilDate
+  m_EditorClassIdentifier: 
+  classes:
+  - ClassName: Mage
+    SkillList:
+    - skillName: FireBall
+      skillIcon: SKillIcon/FireBall
+      skillVFXPath: SKillVFX/FireBall
+    - skillName: IceBall
+      skillIcon: SKillVFX/IceBall
+      skillVFXPath: SKillVFX/IceBall
+  - ClassName: SwordMan
+    SkillList:
+    - skillName: Smash
+      skillIcon: SKillIcon/Smash
+      skillVFXPath: SKillVFX/Smash
+    - skillName: Attack
+      skillIcon: SKillVFX/Attack
+      skillVFXPath: SKillVFX/Attack
